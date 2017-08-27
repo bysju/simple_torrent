@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bencodeserialization", "becodeserialization\becodeserialization.vcxproj", "{C7E656F4-204D-4FB4-BBD6-5F0BF9C3566F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E656F4-204D-4FB4-BBD6-5F0BF9C3566F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7E656F4-204D-4FB4-BBD6-5F0BF9C3566F}.Debug|x86.Build.0 = Debug|Win32
+		{C7E656F4-204D-4FB4-BBD6-5F0BF9C3566F}.Release|x86.ActiveCfg = Release|Win32
+		{C7E656F4-204D-4FB4-BBD6-5F0BF9C3566F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C491D196-397C-4611-838D-0B2AEF2E1F1C}
+	EndGlobalSection
+EndGlobal
