@@ -150,12 +150,15 @@ namespace bencode
 
 		int num = atoi( &numVec[0] );
 
-		std::vector<char> data( num );
-		is.read( &data[0], num );
+		if (0 == num)
+			pType = new BencodeString(std::string("")); //empty value
+		else
+		{
+			std::vector<char> data(num);
+			is.read(&data[0], num);
 
-		pType = new BencodeString( std::string( &data[0], num ) );
-
-
+			pType = new BencodeString(std::string(&data[0], num));
+		}
 	}
 
 	void BencodeArchiveImpl::loadBencodeInteger( BencodeType *& pType, std::istream & is )
